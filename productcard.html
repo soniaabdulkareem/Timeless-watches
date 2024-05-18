@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeless Watches</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Great+Vibes&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="query.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <!-- for big screens -->
+            <div class="nav-big">
+                <div class="top-big">
+                    <p>Free shipping worldwide today/up to 50% off all the new collection /Discount for the second unit</p>
+                </div>
+                <div class="menu">
+                    <div class="menu-list">
+                        <ul>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="catalog.html">Catalog</a></li>
+                            <li><a href="contact.html">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="menu-logo">
+                        <h1><a href="index.html">Five o'clock tea</a></h1>
+                    </div>
+                    <div class="menu-list">
+                        <ul>
+                            <li><a href="search.html">Search</a></li>
+                            <li><a href="account.html">Account</a></li>
+                            <li><a href="cart-checkout.html">Cart</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="top-mobile">
+                <p>free shipping worldwide today/Up to 50% off the new collection/Discount</p>
+            </div>
+            <nav class="navbar">
+                <div class="navbar__header">
+                    <div class="navbar__btn">
+                        <div class="bar bar1"></div>
+                        <div class="bar bar3"></div>
+                    </div>
+                    <h1><a href="index.html">Five o'clock tea</a></h1>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M4.558 7l4.701-4.702c.199-.198.46-.298.721-.298.613 0 1.02.505 1.02 1.029 0 .25-.092.504-.299.711l-3.26 3.26h-2.883zm12.001 0h2.883l-4.701-4.702c-.199-.198-.46-.298-.721-.298-.613 0-1.02.505-1.02 1.029 0 .25.092.504.299.711l3.26 3.26zm3.703 4l-.016.041-3.598 8.959h-9.296l-3.597-8.961-.016-.039h16.523zm3.738-2h-24v2h.643c.534 0 1.021.304 1.256.784l4.101 10.216h12l4.102-10.214c.233-.481.722-.786 1.256-.786h.642v-2z"/></svg>
+                  
+                 
+                </div>
+                <ul class="navbar__links">
+                  <!-- single links -->
+                  <li>
+                    <a href="index.html" class="navbar__single-link">
+                    Home
+                    </a>
+                </li>
+                    <li>
+                        <a href="about.html" class="navbar__single-link">
+                        About
+                        </a>
+                    </li>
+           
+                  <!-- single links -->
+                  <li>
+                   <a href="catalog.html" class="navbar__single-link">
+                    Catalog
+                   </a>
+                 </li>
+           
+                 <!-- single links -->
+                 <li>
+                   <a href="contact.html" class="navbar__single-link">
+                    </i>Contact us
+                   </a>
+                 </li> 
+           
+                 <!-- single links -->
+                 <li>
+                   <a href="search.html" class="navbar__single-link">
+                    Search
+                   </a>
+                 </li>
+                 <!-- single links -->
+                 <li>
+                    <a href="account.html" class="navbar__single-link">
+                      Account
+                    </a>
+                  </li>
+                  <!-- single links -->
+                  <li>
+                    <a href="cart-checkout.html" class="navbar__single-link">
+                      Cart
+                    </a>
+                  </li>
+    
+                </ul>
+            </nav>
+        </div>
+        
+    </header>
+    <section class="modal hidden" id="modal">
+        <div class="container">
+            <div class="modal-cover">
+                <div class="shopping-cart">
+                    <div class="shopping-title">
+                        <h2><i>shopping cart</i></h2>
+                        <button id="close-modal">close</button>
+                    </div>
+                    
+                    
+                    <div class="shopping-list">
+    
+                        <div class="shopping-summary">
+                            <div class="productName">
+                                <img src="images/2182-1.webp" alt="" srcset="" width="60px">
+                                
+                                <div class="col">
+                                    <p>Amber bloom <br><small>Heritage classics collection</small></p>
+                                    <div class="remove">
+                                        <button>&minus;</button>
+                                        <p class="add"> 1</p>
+                                        <button>&plus;</button>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            <div class="product-pricing">
+                                <p>1000$</p>
+    
+                                <small class="remove">Remove</small>
+                            </div>
+                        </div>
+                        <div class="shopping-summary">
+                            <div class="productName">
+                                <img src="images/4301-1.webp" alt="" srcset="" width="60px">
+                                <div class="col">
+                                    <p>Green Hours <br><small>Heritage classics collection</small></p>
+                                    <div class="remove">
+                                        <button>&minus;</button>
+                                        <p class="add"> 1</p>
+                                        <button>&plus;</button>
+                                    </div>
+                                    
+                                </div>
+                               
+                                
+                            </div>
+                            
+                            <div class="product-pricing">
+                                <p>1200$</p>
+
+                                <small class="remove">Remove</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shopping-total">
+                        <div class="shopping-sub">
+                            <p><strong>Subtotal</strong></p>
+                            <p>2200$</p>
+                        </div>
+                        <div class="shopping-sub">
+                            <p><strong>Sale</strong></p>
+                            <p>-120$</p>
+                        </div>
+                        <div class="shopping-sub">
+                            <p><strong>Shipping</strong></p>
+                            <p>80$</p>
+                        </div>
+    
+                    </div>  
+                    <div class="totalCalc">
+                        <h3><strong>Total</strong></h3>
+                        <p><strong>2160$</strong></p>
+                    </div>
+                    <div class="checkout">
+                        <button><a href="cart-checkout.html">Checkout</a></button>  
+                    </div>
+                  
+                </div>
+            </div>
+           
+        </div>
+    </section>
+    <section class="product-description">
+        <div class="row-5">
+            <div class="row-5-title">
+                <ul>
+                    <li>Home .</li>
+                    <li>Catalog .</li>
+                    <li><strong>Green hours</strong></li>
+                </ul>
+                <div class="scroll" id="scroll">
+                    <button type="" id="scroll-left" >&larr;</button>
+                    <div class="clip"></div>
+                    <button type="" id="scroll-right">&rarr;</button>
+                </div>
+            </div>
+            <div class="row-gallery" id="row">
+                <div class="gallery-image">
+                    <img src="images/8ea2a7f6-9cac-4d4d-b05b-ce521a963def.webp" alt="">
+                    <div class="gallery-text">
+                        <h4><strong>Green hours</strong> <br><small>
+                            Heritage classics collection
+                            </small><br>
+                            <div class="color">
+                                <div class="pick">
+                                    <img src="images/marble-compostion-with-colorful-style_23-2147927686.jpg" alt="">
+                                    <p>Gold</p>
+                                </div>
+                                <div class="pick">
+                                    <p># For her</p>
+                                </div>
+                              
+
+                            </div>
+                           
+                            
+
+                        </h4>
+                        <p>1200$</p>
+                    </div>
+                </div>
+                <div class="gallery-image">
+                    <img src="images/2136-1_b5085278-879b-4ba6-9354-1c608f9cd3bc.webp" alt="">
+                </div>
+               <div class="gallery-image">
+                    <img src="images/20231209115526_c3235236-48de-439e-bdd0-9c10fdc7b1b4.webp" alt="">
+               </div>
+
+                
+            </div>
+
+            <div class="details">
+                <div class="details-text">
+                    <p>The timepiece with a mesmerizing green dial, like a lush oasis for your wrist. Beyond telling time, it whispers a tale of nature's harmony and style's embrace a wrist companion thta's both a conversation and a silent storyteller.</p>
+
+                    <div class="add">
+                        <button id="show-all"><a href="#">Add to cart</a></button>
+                        <i class="fa-regular fa-heart"></i>
+                        
+                    </div>
+                </div>
+                <div class="details-form">
+                    
+                    <p class="accordion">specifications <i class="fa-solid fa-angle-down"></i></p>
+                        
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    
+                    <p class="accordion">Delivery & Returns <i class="fa-solid fa-angle-down"></i></p>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+
+                    <p class="accordion">Guarantee <i class="fa-solid fa-angle-down"></i></p>
+                    <div class="panel">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>
+             
+            </div>
+            
+
+           
+        </div>
+
+    </section>
+    
+    <section class="reviews">
+        <div class="container">
+            <div class="sub-title">
+                <h3><i>Reviews</i></h3>
+                <div class="scroll" id="scroll">
+                    <button type="" id="scroll-left" >&larr;</button>
+                    <div class="clip"></div>
+                    <button type="" id="scroll-right">&rarr;</button>
+                </div>
+            </div>
+
+            
+            
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-content">
+                        <img src="images/confident-businessman-posing-outside_74855-1551.jpg" alt="" width="100px" height="100px">
+                        <h3>Mike Loper</h3>
+                        <p><i class="fa-solid fa-quote-left"></i>Absolutely loving my new classic<br> watch! impeccable craftmanship and<br> elegant design make it a versatile<br> accessory. Highly recommend this<br> timeless timepiece!</p>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img src="images/confident-businessman-posing-outside_74855-1551.jpg" alt="">
+                        <h3>Mike Loper</h3>
+                        <p><i class="fa-solid fa-quote-left"></i>Absolutely loving my new classic <br> watch! impeccable craftmanship and<br> elegant design make it a versatile<br> accessory. Highly recommend this<br> timeless timepiece!</p>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img src="images/confident-businessman-posing-outside_74855-1551.jpg" alt="">
+                        <h3>Mike Loper</h3>
+                        <p><i class="fa-solid fa-quote-left"></i>Absolutely loving my new classic <br> watch! impeccable craftmanship and<br> elegant design make it a versatile<br> accessory. Highly recommend this<br> timeless timepiece!</p>
+                    </div>
+
+                </div>
+               
+            </div>
+            </div>
+                
+        </div>
+    </section>
+    <section class="Best"> 
+
+
+        <div class="container">
+            <div class="sub-title">
+                <h3><i>You Might like</i></h3>
+                <div class="scroll" id="scroll">
+                    <button type="" id="scroll-left" >&larr;</button>
+                    <div class="clip"></div>
+                    <button type="" id="scroll-right">&rarr;</button>
+                </div>
+
+            </div>
+            <div class="products" id="products">
+                <div class="button2">
+                    <button><a href="catalog.html">Show all products</a></button>
+                </div>
+               
+                <div class="list">
+                    <img src="images/3_4b9d06bb-b157-438e-92c3-873ad79e123d.webp" alt="">
+                    <i class="fa-regular fa-heart"></i>
+                    <div class="product-name">
+                        <p>Rosy gilt</p>
+                        <small>Heritage classics collection</small>
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="images/illustration-watch_931878-434924-removebg-preview.png" alt="" class="rounded">
+                    <i class="fa-regular fa-heart"></i>
+                    <div class="product-name">
+                        <p>Aureate blush</p>
+                        <small>Timeless tradition watches</small>
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="images/2501-4.webp" alt="" >
+                    <i class="fa-regular fa-heart"></i>
+                    <div class="product-name">
+                        <p>Aureate blush</p>
+                        <small>Timeless tradition watches</small>
+                    </div>
+                </div>
+                <div class="list">
+                    <img src="images/4170_d66e27c5-628b-4b26-9899-d8971a4d5f3c.webp" alt="" class="rounded">
+                    <i class="fa-regular fa-heart"></i>
+                    <div class="product-name">
+                        <p>Aureate blush</p>
+                        <small>Timeless tradition watches</small>
+                    </div>
+                </div>
+            </div>
+            <div class="all-products">
+                <button><a href="#">Show all products</a></button>
+            </div>
+        </div>
+
+        <div class="empty">
+
+        </div>
+    </section>
+   
+    
+   
+    <footer class="mobile">
+        <div class="container">
+            <div class="description">
+                <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m21.301 4c.411 0 .699.313.699.663 0 .248-.145.515-.497.702-1.788.948-3.858 4.226-3.858 6.248 3.016-.092 4.326 2.582 4.326 4.258 0 2.007-1.738 4.129-4.308 4.129-3.24 0-4.83-2.547-4.83-5.307 0-5.98 6.834-10.693 8.468-10.693zm-10.833 0c.41 0 .699.313.699.663 0 .248-.145.515-.497.702-1.788.948-3.858 4.226-3.858 6.248 3.016-.092 4.326 2.582 4.326 4.258 0 2.007-1.739 4.129-4.308 4.129-3.241 0-4.83-2.547-4.83-5.307 0-5.98 6.833-10.693 8.468-10.693z" fill-rule="nonzero"/></svg>
+                <div class="vl"></div>
+                <p>Each timepiece is a unique work of<br> art that demonstrates Amanda's<br> dedication to craftmanship and<br> artistic vision.</p>
+            </div>
+            <div class="subscribe">
+                <h3>Subscribe for our best offers</h3>
+                <div class="enter">
+                    <input type="email" placeholder="Enter your email">
+                    <p>&#8594;</p>
+                </div>
+                
+            </div>
+            <div class="policy">
+                <div class="list">
+                    <ul>
+                        <li>About</li>
+                        <li>Catalog</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>FAQ</li>
+                        <li>Terms and Conditions</li>
+                        <li>Privacy policy</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="socials">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+            </div>
+            <div class="copyright">
+                <p>2024 (&copy;) five o'clock tea.<Br>All rights reserved</p>
+            </div>
+        </div>
+    </footer> 
+    <footer class="big-screens">
+        <div class="container">
+            <div class="footer-big">
+                <div class="footer-items">
+                    <div class="description">
+                        <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m21.301 4c.411 0 .699.313.699.663 0 .248-.145.515-.497.702-1.788.948-3.858 4.226-3.858 6.248 3.016-.092 4.326 2.582 4.326 4.258 0 2.007-1.738 4.129-4.308 4.129-3.24 0-4.83-2.547-4.83-5.307 0-5.98 6.834-10.693 8.468-10.693zm-10.833 0c.41 0 .699.313.699.663 0 .248-.145.515-.497.702-1.788.948-3.858 4.226-3.858 6.248 3.016-.092 4.326 2.582 4.326 4.258 0 2.007-1.739 4.129-4.308 4.129-3.241 0-4.83-2.547-4.83-5.307 0-5.98 6.833-10.693 8.468-10.693z" fill-rule="nonzero"/></svg>
+                        <div class="vl"></div>
+                        <p>Each timepiece is a unique work of art<br> that demonstrates Amanda's dedication<br> to craftmanship and artistic vision.</p>
+                    </div>
+                    <div class="socials">
+                        <i class="fa-brands fa-facebook-f"></i>
+                        <i class="fa-brands fa-twitter"></i>
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="copyright">
+                        <p>2024 (&copy;) five o'clock tea.All rights reserved</p>
+                    </div>
+
+                </div>
+                <div class="footer-items">
+                    
+                    <div class="list">
+                        <ul>
+                            <li>About</li>
+                            <li>Catalog</li>
+                            <li>Contact us</li>
+                        </ul>
+                    </div>
+                    
+                    
+                    <div class="subscribe">
+                        <h3>Subscribe for our best offers</h3>
+                        <div class="enter">
+                            <input type="email" placeholder="Enter your email">
+                            <p>&#8594;</p>
+                        </div>
+                    </div>
+
+                    <div class="list">
+                        <ol>
+                            <li>FAQ</li>
+                            <li>Terms and Conditions</li>
+                            <li>Privacy policy</li>
+                        </ol>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
+
+    </footer> 
+
+    
+
+   <script src="main.js"></script>
+</body>
+</html>
